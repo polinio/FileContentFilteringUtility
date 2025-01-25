@@ -13,7 +13,7 @@ public class Main {
         //  Обработка строки 
         for (int i = 0; i < args.length; i++) {
             switch(args[i]){
-                case "-o": // задание пути результатов -o /some/path -p result_
+                case "-o": // задание пути результатов
                     if (i + 1 < args.length && !args[i + 1].startsWith("-"))
                         outputPath = args[++i];
                     else {
