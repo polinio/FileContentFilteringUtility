@@ -44,6 +44,8 @@ java -jar util.jar -s -o /output/results/ -p result- in1.txt in2.txt
 1. Клонируйте репозиторий и перейдите в директорию проекта:
    ```bash
    git clone https://github.com/polinio/FileContentFilteringUtility.git
+   ```
+   ```bash
    cd FileContentFilteringUtility
    ```
 2. Запустите утилиту с необходимыми параметрами через командную строку:
